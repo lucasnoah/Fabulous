@@ -45,7 +45,7 @@ fabconf['GITHUB_DEPLOY_KEY_NAME'] = "github"
 fabconf['GITHUB_DEPLOY_KEY_PATH'] = "%s/%s" % (fabconf['SSH_PATH'], fabconf['GITHUB_DEPLOY_KEY_NAME'])
 
 # Path to the repo of the application you want to install
-fabconf['GITHUB_REPO'] = "https://github.com/gcollazo/Blank-django-Project.git"
+fabconf['GITHUB_REPO'] = "https://github.com/lucasnoah/zentertainme.git"
 
 # Virtualenv activate command
 fabconf['ACTIVATE'] = "source /home/%s/.virtualenvs/%s/bin/activate" % (fabconf['SERVER_USERNAME'], fabconf['PROJECT_NAME'])
