@@ -51,7 +51,7 @@ fabconf['GITHUB_REPO'] = "https://github.com/lucasnoah/zentertainme.git"
 fabconf['ACTIVATE'] = "source /home/%s/.virtualenvs/%s/bin/activate" % (fabconf['SERVER_USERNAME'], fabconf['PROJECT_NAME'])
 
 # Name tag for your server instance on EC2
-fabconf['INSTANCE_NAME_TAG'] = "ZENSERVER
+fabconf['INSTANCE_NAME_TAG'] = "ZENSERVER"
 # EC2 key. http://bit.ly/j5ImEZ
 ec2_key = 'AKIAJRKCWXWGJQ4BVWKA'
 
